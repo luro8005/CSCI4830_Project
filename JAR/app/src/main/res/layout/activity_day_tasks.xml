@@ -8,14 +8,14 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.realc.jar.DayTasks">\
+    tools:context="com.example.realc.jar.DayTasks" >
 
     <TextView
         android:text="@string/today_string"
         android:textSize="40sp"
         android:layout_marginTop="0sp"
         android:layout_width="300sp"
-        android:layout_height="50sp" />
+        android:layout_height="60sp" />
 
     <CheckBox
         android:text="6:00am"
@@ -54,11 +54,9 @@
 
     <Button
         android:text=""
-        android:layout_width="wrap_content"
+        android:layout_width="320sp"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/checkBox4"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
         android:id="@+id/button2"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
@@ -67,11 +65,9 @@
 
     <Button
         android:text=""
-        android:layout_width="wrap_content"
+        android:layout_width="320sp"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/checkBox5"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
         android:id="@+id/button3"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
@@ -80,11 +76,9 @@
 
     <Button
         android:text=""
-        android:layout_width="wrap_content"
+        android:layout_width="320sp"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/checkBox6"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
         android:id="@+id/button4"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
@@ -93,11 +87,9 @@
 
     <Button
         android:text=""
-        android:layout_width="wrap_content"
+        android:layout_width="320sp"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/checkBox7"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
         android:id="@+id/button5"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
@@ -105,16 +97,23 @@
         android:onClick="SpecTask4"/>
 
     <Button
+        android:text="+"
+        android:textSize="30sp"
+        android:layout_width="50sp"
+        android:layout_height="60sp"
+        android:layout_marginLeft="305sp"
+        android:layout_marginTop="0sp"
+        style="@android:style/Widget.Button.Inset" />
+
+    <Button
         android:text=""
-        android:layout_width="wrap_content"
+        android:layout_width="320sp"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/checkBox8"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
         android:id="@+id/button6"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
         style="@style/Widget.AppCompat.Button.Borderless"
-        android:onClick="SpecTask5"/>
+        android:onClick="SpecTask5"
+        android:layout_below="@+id/button5"
+        android:layout_alignLeft="@+id/button5"
+        android:layout_alignStart="@+id/button5" />
 
 </RelativeLayout>

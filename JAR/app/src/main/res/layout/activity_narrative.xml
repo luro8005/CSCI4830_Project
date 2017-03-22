@@ -10,4 +10,18 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.realc.jar.Narrative">
 
+    <TextView
+        android:text="To go to Narrative click below:"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200sp"
+        android:layout_height="30sp" />
+
+    <Button
+        android:text="To Narrative"
+        android:layout_marginTop="50sp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200sp"
+        android:layout_height="50sp" />
+
+
 </RelativeLayout>

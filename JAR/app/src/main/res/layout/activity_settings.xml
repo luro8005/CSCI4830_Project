@@ -10,4 +10,25 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.realc.jar.Settings">
 
+    <Button
+        android:text="Alarm"
+        android:layout_width="200sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Add Pictures to Alarms"
+        android:layout_width="200sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Display"
+        android:layout_width="200sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>

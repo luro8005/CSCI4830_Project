@@ -37,4 +37,13 @@
         android:layout_height="75sp"
         android:textSize="35sp"/>
 
+    <Button
+        android:text="+"
+        android:textSize="30sp"
+        android:layout_width="50sp"
+        android:layout_height="60sp"
+        android:layout_marginLeft="305sp"
+        android:layout_marginTop="0sp"
+        style="@android:style/Widget.Button.Inset" />
+
 </RelativeLayout>

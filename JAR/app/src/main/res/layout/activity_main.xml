@@ -84,7 +84,7 @@
         style="@style/Widget.AppCompat.Button.Borderless.Colored" />
 
     <TextView
-        android:text="Monday, March 20th"
+        android:text="Wednesday, March 20th"
         android:textSize="35sp"
         android:layout_width="200sp"
         android:layout_height="100sp"

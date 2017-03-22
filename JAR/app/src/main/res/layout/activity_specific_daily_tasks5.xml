@@ -10,4 +10,47 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.realc.jar.SpecificDailyTasks5">
 
+    <CheckBox
+        android:text="Check if more clothes need laundry"
+        android:layout_width="200sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="72dp"
+        android:id="@+id/checkBox21" />
+
+    <CheckBox
+        android:text="Make DInner"
+        android:layout_width="200sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="122dp"
+        android:id="@+id/checkBox22" />
+
+    <CheckBox
+        android:text="Make sure that oven is off"
+        android:layout_width="200sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="172dp"
+        android:id="@+id/checkBox23" />
+
+    <CheckBox
+        android:text="MGet ready for dinner"
+        android:layout_width="200sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="222dp"
+        android:id="@+id/checkBox24" />
+
+    <TextView
+        android:text="6:00pm"
+        android:layout_width="200sp"
+        android:layout_height="75sp"
+        android:textSize="35sp"/>
+
+    <Button
+        android:text="+"
+        android:textSize="30sp"
+        android:layout_width="50sp"
+        android:layout_height="60sp"
+        android:layout_marginLeft="305sp"
+        android:layout_marginTop="0sp"
+        style="@android:style/Widget.Button.Inset" />
+
 </RelativeLayout>

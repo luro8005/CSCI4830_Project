@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">JAR</string>
-    <string name="button_task">Tasks</string>
-    <string name="today_string">TODAY</string>
-    <string name="Empty_history_string">No History to show.</string>
-</resources>

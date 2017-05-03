@@ -1,9 +1,12 @@
 package com.example.realc.jar;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+
+import static android.R.id.message;
 
 public class DayTasks extends AppCompatActivity {
 

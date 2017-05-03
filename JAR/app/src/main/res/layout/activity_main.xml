@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
@@ -27,7 +28,8 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:onClick="Settings"/>
+        android:onClick="Settings"
+        style="@android:style/Widget.Holo.Button" />
 
     <Button
         android:text="History"
@@ -40,7 +42,8 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:onClick="History"/>
+        android:onClick="History"
+        style="@android:style/Widget.Holo.Button" />
 
     <Button
         android:text="Narrative"
@@ -53,7 +56,8 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:onClick="Narrative"/>
+        android:onClick="Narrative"
+        style="@android:style/Widget.Holo.Button" />
 
     <Button
         android:text="@string/button_task"
@@ -66,7 +70,8 @@
         android:layout_marginBottom="22dp"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:onClick="weeklyTask"/>
+        android:onClick="weeklyTask"
+        style="@android:style/Widget.Holo.Button" />
 
     <Button
         android:text=" "
@@ -84,12 +89,22 @@
         style="@style/Widget.AppCompat.Button.Borderless.Colored" />
 
     <TextView
-        android:text="Wednesday, March 20th"
+        android:text="Wednesday, May 3rd"
         android:textSize="35sp"
+        android:textAlignment="center"
         android:layout_width="200sp"
         android:layout_height="100sp"
         android:layout_marginTop="32dp"
         android:id="@+id/textView3"
         android:layout_centerHorizontal="true" />
+
+
+    <ImageView
+        android:layout_width="350sp"
+        android:layout_height="450sp"
+        android:layout_marginTop="70sp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageView4"
+        android:background="@mipmap/ic_launcher" />
 
 </RelativeLayout>

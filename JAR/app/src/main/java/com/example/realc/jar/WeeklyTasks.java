@@ -18,6 +18,11 @@ public class WeeklyTasks extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void WeeklyTask (View view) {
+        Intent intent = new Intent(this, SpecificWeeklyTasks.class);
+        startActivity(intent);
+    }
+
     public void Calendar(View view) {
         Intent intent = new Intent(this, Calendar.class);
         startActivity(intent);

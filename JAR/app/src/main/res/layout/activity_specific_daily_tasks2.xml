@@ -15,21 +15,24 @@
         android:layout_width="200sp"
         android:layout_height="50sp"
         android:layout_marginTop="72dp"
-        android:id="@+id/checkBox12" />
+        android:id="@+id/checkBox12"
+        android:checked="true"/>
 
     <CheckBox
         android:text="Wash Dishes"
         android:layout_width="200sp"
         android:layout_height="50sp"
         android:layout_marginTop="122dp"
-        android:id="@+id/checkBox13" />
+        android:id="@+id/checkBox13"
+        android:checked="true"/>
 
     <CheckBox
         android:text="Begin Shower"
         android:layout_width="200sp"
         android:layout_height="50sp"
         android:layout_marginTop="172dp"
-        android:id="@+id/checkBox14" />
+        android:id="@+id/checkBox14"
+        android:checked="true"/>
 
     <TextView
         android:text="8:00am"

@@ -67,7 +67,7 @@
         android:layout_above="@+id/button4"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="22dp"
+        android:layout_marginBottom="30dp"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:onClick="weeklyTask"
@@ -101,10 +101,10 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="350sp"
-        android:layout_height="450sp"
+        android:layout_width="300sp"
+        android:layout_height="400sp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="70sp"
+        android:layout_marginTop="90sp"
         android:background="@mipmap/ic_launcher" />
 
 </RelativeLayout>

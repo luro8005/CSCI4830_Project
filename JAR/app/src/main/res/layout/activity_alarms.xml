@@ -4,27 +4,28 @@
     android:layout_width="match_parent" android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/alarm_on"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="76dp"
+        android:text="Alarm On"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="80dp"
-        android:layout_marginLeft="43dp"
-        android:layout_marginStart="43dp"
-        android:text="Alarm On" />
+        android:layout_marginLeft="70dp"
+        android:layout_marginStart="70dp" />
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/alarm_off"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="54dp"
+        android:layout_marginRight="54dp"
+        android:text="Alarm Off"
+        android:layout_alignBottom="@+id/alarm_on"
         android:layout_alignParentRight="true"
-        android:layout_alignTop="@+id/button8"
-        android:layout_marginEnd="51dp"
-        android:layout_marginRight="51dp"
-        android:text="Alarm Off" />
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/alarm_on" />
 
     <TimePicker
         android:id="@+id/timePicker2"

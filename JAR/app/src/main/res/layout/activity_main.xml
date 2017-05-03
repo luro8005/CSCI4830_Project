@@ -100,11 +100,11 @@
 
 
     <ImageView
+        android:id="@+id/imageView4"
         android:layout_width="350sp"
         android:layout_height="450sp"
-        android:layout_marginTop="70sp"
         android:layout_centerHorizontal="true"
-        android:id="@+id/imageView4"
+        android:layout_marginTop="70sp"
         android:background="@mipmap/ic_launcher" />
 
 </RelativeLayout>

@@ -13,6 +13,11 @@ public class WeeklyTasks extends AppCompatActivity {
         setContentView(R.layout.activity_weekly_tasks);
     }
 
+    public void DayTasks(View view) {
+        Intent intent = new Intent(this, DayTasks.class);
+        startActivity(intent);
+    }
+
     public void Calendar(View view) {
         Intent intent = new Intent(this, Calendar.class);
         startActivity(intent);

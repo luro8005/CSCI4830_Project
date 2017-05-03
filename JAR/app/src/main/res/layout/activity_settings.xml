@@ -11,11 +11,12 @@
     tools:context="com.example.realc.jar.Settings">
 
     <Button
-        android:text="Alarm"
         android:layout_width="200sp"
         android:layout_height="50sp"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="200dp"
-        android:layout_centerHorizontal="true" />
+        android:onClick="Alarms"
+        android:text="Alarm" />
 
     <Button
         android:text="Add Pictures to Alarms"

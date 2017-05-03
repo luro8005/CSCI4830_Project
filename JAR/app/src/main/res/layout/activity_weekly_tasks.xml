@@ -11,46 +11,59 @@
     tools:context="com.example.realc.jar.WeeklyTasks">
 
     <Button
-        android:text="Monday"
+        android:layout_width="400sp"
+        android:layout_height="50sp"
         android:layout_marginTop="100sp"
-        android:layout_width="400sp"
-        android:layout_height="50sp" />
+        android:onClick="DayTasks"
+        android:text="Monday" />
 
     <Button
-        android:text="Tuesday"
+        android:layout_width="400sp"
+        android:layout_height="50sp"
         android:layout_marginTop="150sp"
-        android:layout_width="400sp"
-        android:layout_height="50sp" />
+        android:onClick="DayTasks"
+        android:text="Tuesday"
+        android:id="@+id/button12" />
 
     <Button
-        android:text="Wednesday"
-        android:layout_marginTop="200sp"
         android:layout_width="400sp"
-        android:layout_height="50sp" />
+        android:layout_height="50sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button12"
+        android:onClick="DayTasks"
+        android:text="Wednesday" />
 
     <Button
-        android:text="Thursday"
+        android:layout_width="400sp"
+        android:layout_height="50sp"
         android:layout_marginTop="250sp"
-        android:layout_width="400sp"
-        android:layout_height="50sp" />
+        android:onClick="DayTasks"
+        android:text="Thursday" />
 
     <Button
-        android:text="Friday"
+        android:layout_width="400sp"
+        android:layout_height="50sp"
         android:layout_marginTop="300sp"
-        android:layout_width="400sp"
-        android:layout_height="50sp" />
+        android:onClick="DayTasks"
+        android:text="Friday" />
 
     <Button
-        android:text="Saturday"
+        android:layout_width="400sp"
+        android:layout_height="50sp"
         android:layout_marginTop="350sp"
-        android:layout_width="400sp"
-        android:layout_height="50sp" />
+        android:onClick="DayTasks"
+        android:text="Saturday"
+        android:id="@+id/button13" />
 
     <Button
-        android:text="Sunday"
-        android:layout_marginTop="400sp"
         android:layout_width="400sp"
-        android:layout_height="50sp" />
+        android:layout_height="50sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button13"
+        android:onClick="DayTasks"
+        android:text="Sunday" />
 
     <Button
         android:text="Calendar"
